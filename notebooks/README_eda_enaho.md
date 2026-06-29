@@ -98,6 +98,3 @@ El procesamiento de los microdatos está optimizado para ejecutarse en entornos 
 
 ---
 
-## 📝 Resumen del Flujo de Trabajo y Scripts Auxiliares
-* [analisis_empleo_enaho_2015_2025.ipynb](file:///home/student2/labs/face/empleo/mtpe/analisis_enaho/analisis_empleo_enaho_2015_2025.ipynb): Notebook principal que contiene el flujo de carga, limpieza, análisis y graficado.
-* [fix_notebooks.py](file:///home/student2/labs/face/empleo/mtpe/analisis_enaho/fix_notebooks.py): Script de automatización de correcciones que inyectó dinámicamente las soluciones de delimitadores, decimales de factor y el cálculo de la tasa informal compuesta (TEI 2024-2025).
