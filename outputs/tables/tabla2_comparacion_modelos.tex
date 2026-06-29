@@ -1,0 +1,15 @@
+\begin{table}[htbp]
+\centering
+\caption{Comparación de modelos predictivos de informalidad laboral}
+\label{tab:modelos}
+\begin{tabular}{lcccc}
+\hline\hline
+Modelo & AUC-ROC & F1 & McFadden $R^2$ & N variables \\
+\hline
+Probit Baseline & 0.7396 & 0.8737 & 0.1728 & 47 \\
+LASSO Logístico & 0.9447 & 0.9315 & 0.4629 & 43 \\
+Random Forest & 0.9565 & 0.9224 & 0.4956 & 78 \\
+XGBoost & 0.9565 & 0.9237 & 0.5063 & 78 \\
+\hline\hline
+\end{tabular}
+\end{table}
